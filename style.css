@@ -1,0 +1,50 @@
+.red {
+    color: yellow !important;
+}
+.red {
+    font-size: large !important;
+}
+
+.list-unstyled {
+    float: right;
+}
+
+h5 {
+color: #e8ec0ff8;}
+
+.p1 {
+    color: rgb(8, 8, 8) ;
+    font-size: xx-large;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h5 {
+    color: white;
+}
+
+.p2 {
+    color: yellow;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.eagle {
+    color: rgb(12, 44, 12);
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.p3 {
+    color: rebeccapurple;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.blue {
+    margin: 350px !important;
+}
+
+.wave {
+    margin: 120px !important
+}
