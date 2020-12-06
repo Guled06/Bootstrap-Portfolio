@@ -2,9 +2,17 @@ body {
     background-color: rgb(4, 33, 53);
 }
 
+.card {
+  z-index: 1;
+  margin-top: 1100px;
+}
 
 @media only screen and (max-width: 800px) {
     body {
       background-color: rgb(190, 219, 21);
     }
+  }
+
+  .card {
+    background-color:rgb(143, 197, 211);)
   }

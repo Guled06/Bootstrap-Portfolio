@@ -8,11 +8,26 @@ body {
     }
   }
 
-.card {
-    z-index: 1;
-    margin-top: 1100px;
+  .card-header {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+  
+.card-body {
+  color: white;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
 }
 
 .card {
-    background-color: rgb(196, 165, 124);
+  margin-top: 130px;
+  background-color: rgb(143, 197, 211);
+
+}
+
+aside {
+  z-index: 1;
 }
