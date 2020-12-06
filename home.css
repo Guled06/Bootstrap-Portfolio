@@ -9,10 +9,16 @@ body {
 
     aside,
     .container {
-      width: 400px;
+      width: 600px;
     }
 
+  }
 
+  @media screen and (max-width: 470px) {
+    aside,
+    .container {
+      width: 100%;
+    }
   }
 
   .card-header {
