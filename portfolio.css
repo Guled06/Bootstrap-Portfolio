@@ -9,13 +9,13 @@ body {
   }
 
   .container {
-    width: 600px;
+    width: 100%;
   }
 
 }
 
 @media screen and (max-width: 470px) {
-  
+
   .container {
     width: 100%;
   }
