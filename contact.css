@@ -1,33 +1,38 @@
-.red {
+  .red {
   color: yellow !important;
-}
-.red {
+  }
+  .red {
   font-size: large !important;
-}
+  }
 
-.list-unstyled {
+  .list-unstyled {
   float: right;
-}
+  }
 
-body {
+  body {
     background-color: rgb(4, 33, 53);
-}
+  }
 
-.card {
+  .card {
   z-index: 1;
   margin-top: 1100px;
-}
+  }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
   body {
     background-color: rgb(78, 12, 43);
   }
 
+  aside,
   .container {
     width: 100%;
-  }
+  } }
 
-}
+  @media screen and (max-width: 470px) {
+  aside,
+  .container {
+    width: 100%;
+  } }
 
   .card {
     background-color:rgb(143, 197, 211)
@@ -37,9 +42,9 @@ body {
     color: rgb(25, 114, 216);
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
-}
+  }
 
-.card-footer {
+  .card-footer {
     text-align: center;
     color: red;
-}
+  }

@@ -20,7 +20,7 @@ body {
 
     aside,
     .container {
-      width: 600px;
+      width: 100%;
     }
 
   }
@@ -29,8 +29,7 @@ body {
     aside,
     .container {
       width: 100%;
-    }
-  }
+    } }
 
   .card-header {
     font-family: 'Courier New', Courier, monospace;
