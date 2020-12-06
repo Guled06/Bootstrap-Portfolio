@@ -10,17 +10,15 @@
 }
 
 body {
-    background-color: rgb(9, 14, 15);
-
+  background-color: rgb(9, 14, 15);
 }
 
 h1 {
   color: rebeccapurple;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
   margin-top: 20px;
   font-style: italic;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -31,33 +29,29 @@ h1 {
   .container {
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 470px) {
-
   .container,
   header {
     width: 100%;
-  } }
-
-  
-  .card-footer {
-      background-color: rgb(143, 197, 211)
   }
+}
 
-  .container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 300px;
+.card-footer {
+  background-color: rgb(143, 197, 211);
+}
 
-
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px;
 }
 
 .card-text {
   color: rgb(25, 114, 216);
   font-weight: 700;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .card-footer {
