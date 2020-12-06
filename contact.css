@@ -1,3 +1,14 @@
+.red {
+  color: yellow !important;
+}
+.red {
+  font-size: large !important;
+}
+
+.list-unstyled {
+  float: right;
+}
+
 body {
     background-color: rgb(4, 33, 53);
 }
@@ -27,3 +38,14 @@ body {
   .card {
     background-color:rgb(143, 197, 211);)
   }
+
+  .card-text {
+    color: rgb(25, 114, 216);
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-footer {
+    text-align: center;
+    color: red;
+}
