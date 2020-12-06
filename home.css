@@ -18,17 +18,25 @@ body {
     background-color: rgb(78, 12, 43);
   }
 
-  aside,
   .container {
-    width: 100%;
+    font-size: 400px;
+  }
+
+  .aside {
+    font-size: 400px;
   }
 }
 
 @media screen and (max-width: 470px) {
-  aside,
+
   .container {
-    width: 100%;
+    font-size: 100%;
   }
+
+  aside {
+    font-size: 100%;
+  }
+  
 }
 
 .card-header {
