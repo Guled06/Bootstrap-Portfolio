@@ -29,14 +29,8 @@ body {
 
 }
 
-@media screen and (max-width: 470px) {
-
-  .container {
-    width: 100%;
-  }
-}
   .card {
-    background-color:rgb(143, 197, 211);)
+    background-color:rgb(143, 197, 211)
   }
 
   .card-text {

@@ -37,13 +37,13 @@ h1 {
 @media screen and (max-width: 470px) {
 
   .container,
-  header, {
+  header {
     width: 100%;
-  }
-}
+  } }
 
+  
   .card-footer {
-      background-color: rgb(143, 197, 211);)
+      background-color: rgb(143, 197, 211)
   }
 
   .container {
