@@ -27,37 +27,35 @@ h1 {
   }
 
   .container {
-    width: 100%;
+    width: 100% !important;
   }
+
 }
 
-@media screen and (max-width: 470px) {
-  .container {
-    width: 200px;
-  }
+@media screen and (max-width: 576px) {
+
 
   header {
-    width: 200px;
+    width: 100% !important;
   }
-}
 
-.card-footer {
-  background-color: rgb(143, 197, 211);
+  .container {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  nav {
+    width: 100% !important;
+  }
+
 }
 
 .container {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 300px;
+  margin: 0 0 0 0;
 }
 
-.card-text {
-  color: rgb(25, 114, 216);
-  font-weight: 700;
-  font-family: "Times New Roman", Times, serif;
-}
+p {
+  color: wheat;
+  font-family: fantasy;
 
-.card-footer {
-  text-align: center;
-  color: red;
 }

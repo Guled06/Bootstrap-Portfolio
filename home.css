@@ -28,7 +28,21 @@ body {
 
   aside {
     width: 100% !important;
-    margin: auto;
+    margin: auto !important;
+  
+  }
+
+  .container {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  nav {
+    width: 100% !important;
+  }
+
+  .card {
+    width: 100% !important;
   }
 
 }
