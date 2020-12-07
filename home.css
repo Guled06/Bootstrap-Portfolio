@@ -19,25 +19,20 @@ body {
   }
 
   .container {
-    font-size: 400px;
+    width: 100% !important; 
   }
 
-  .aside {
-    font-size: 400px;
-  }
 }
 
-@media screen and (max-width: 470px) {
-
-  .container {
-    font-size: 100%;
-  }
+@media screen and (max-width: 576px) {
 
   aside {
-    font-size: 100%;
+    width: 100% !important;
+    margin: auto;
   }
-  
+
 }
+
 
 .card-header {
   font-family: "Courier New", Courier, monospace;
