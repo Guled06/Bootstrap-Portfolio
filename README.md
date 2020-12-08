@@ -22,3 +22,5 @@ Afterwards, I copied and paste a container that a row and colums and pasted into
 
 After giving containers, rows and colums to my three pages. I gave each page a footer. I customized the footer in the css pages I linked to each page and I customized it exactly the same for each page. 
 
+In order for the pages to fit into different screen sizes, I added a @media query to make the pages fluid. 
+
