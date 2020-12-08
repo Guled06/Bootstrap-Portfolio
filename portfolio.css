@@ -28,7 +28,6 @@ h1 {
   .container {
     width: 100% !important;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -45,13 +44,8 @@ h1 {
   header {
     width: 100% !important;
   }
-
-
 }
 
-.container {
-  margin: 0 0 0 0 !important;
-}
 
 
 p {
