@@ -31,16 +31,9 @@
   </head>
 
   <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarText"
-        aria-controls="navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
@@ -52,18 +45,52 @@
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html"
-              >Contact<span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
           </li>
         </ul>
-        <span class="navbar-text red"> Welcome </span>
+        <span class="navbar-text red">
+          Welcome
+        </span>
       </div>
     </nav>
+    
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-md-8 mt-5">
+          <h1>Contact</h1>
+         <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-8 mt-5">
+          <form>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First and Last Name">
+            </div>
+            <br><br>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+            </div>
+            <br><br>
+            <div class="form-group">
+              <label for="Message">Message</label>
+              <input type="message" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Comment">
+            </div>
+            <br><br>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
 
-    <div class="card">
-      <h5 class="card-footer">&copy; Copyright</h5>
-    </div>
+      <footer class="footer">
+        &copy; Copyright
+      </footer>
+        
+
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
