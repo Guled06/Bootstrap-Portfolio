@@ -28,5 +28,7 @@ After giving containers, rows and colums to my three pages. I gave each page a f
 
 In order for the pages to fit into different screen sizes, I added a @media query to make the pages fluid. 
 
+Below is a screenshot of my portfolio page. 
+
 <img src="assets/images/project1.png" alt="Portfolio page">
 
