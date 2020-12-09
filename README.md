@@ -4,6 +4,8 @@ You can visit my project's portfolio by clicking <a href="https://guled06.github
 
 I created a three html files (pages). I created an home.html, portfolio.html and a contact.html pages. I linked each of these html pages with a bootstrap css links. Within each of the pages, I linked them with a separate my own person css links. For example, the home.html is linked with a boostrap css link AND a home.css link. 
 
+I changed the name of my index.html to home.html. In the screenshots, you might see the old name (index.html), so don't be alarmed. 
+
 The porfolio.html is linked to a boostrap css link AND a porfolio.css link. 
 
 The contact.html is linked to a bostrap css link AND a contact.css link.
